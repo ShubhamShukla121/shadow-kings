@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Team Section</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background-color: #92ca21;
+      color: #333;
+    }
+
+    .team-section {
+      max-width: 1200px;
+      margin: 50px auto;
+      padding: 0 20px;
+      text-align: center;
+    }
+
+    .team-section h2 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    .team-section p {
+      font-size: 1rem;
+      color: #666;
+      margin-bottom: 40px;
+    }
+
+    .team-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+    }
+
+    .team-card {
+      background-color: #fff;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .team-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .team-photo {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 15px;
+      border: 3px solid #4caf50;
+    }
+
+    .team-name {
+      font-size: 1.3rem;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .team-role {
+      font-size: 1rem;
+      color: #4caf50;
+      margin-bottom: 10px;
+    }
+
+    .team-description {
+      font-size: 0.95rem;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <section class="team-section">
+    <h2>Meet the Core Team</h2>
+    <p>The passionate individuals leading our mission and vision.</p>
+
+    <div class="team-grid">
+      <div class="team-card">
+       
+        <div class="team-name">Shubham Shukla</div>
+        <div class="team-role">President</div>
+        <div class="team-description">Leads the club with a focus on innovation, inclusivity, and strategic planning.</div>
+      </div>
+
+      <div class="team-card">
+        
+        <div class="team-name">Shivanshu</div>
+        <div class="team-role">Vice President</div>
+        <div class="team-description">Coordinates events and ensures everything runs smoothly behind the scenes.</div>
+      </div>
+
+      <div class="team-card">
+        
+        <div class="team-name">Devashish</div>
+        <div class="team-role">Technical Lead</div>
+        <div class="team-description">Oversees workshops and tech initiatives, making sure our skills stay sharp.</div>
+      </div>
+
+      <div class="team-card">
+        
+        <div class="team-name">Pratham Yadav</div>
+        <div class="team-role">Design & Media</div>
+        <div class="team-description">Creates visuals, manages social media, and keeps our brand looking fresh.</div>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>

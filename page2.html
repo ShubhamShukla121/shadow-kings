@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Club Info and Timeline</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      background-color: #f9f9f9;
+      padding: 20px;
+      color: #333;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+      background: #74b256;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    h1, h2 {
+      text-align: center;
+      color: #2c3e50;
+    }
+
+    .about {
+      margin-bottom: 40px;
+    }
+
+    .about p {
+      margin-bottom: 15px;
+    }
+
+    .timeline {
+      position: relative;
+      margin: 40px 0;
+      padding-left: 40px;
+      border-left: 3px solid #3498db;
+    }
+
+    .timeline-card {
+      background: #ecf0f1;
+      margin-bottom: 20px;
+      padding: 20px;
+      border-radius: 10px;
+      position: relative;
+    }
+
+    .timeline-card::before {
+      content: "";
+      position: absolute;
+      left: -14px;
+      top: 20px;
+      width: 12px;
+      height: 12px;
+      background-color: #3498db;
+      border-radius: 50%;
+      border: 2px solid #fff;
+    }
+
+    .timeline-card h3 {
+      margin-bottom: 8px;
+      color: #2980b9;
+    }
+
+    .timeline-card span {
+      font-size: 0.9em;
+      color: #555;
+    }
+
+    @media (max-width: 600px) {
+      .timeline {
+        padding-left: 20px;
+      }
+
+      .timeline-card {
+        padding: 15px;
+      }
+      
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Our Club</h1>
+    <section class="about">
+      <h2>About the Club</h2>
+      <p>Welcome to the Innovation & Tech Club! Our mission is to foster creativity, learning, and collaboration among students passionate about technology and innovation.</p>
+      <p>We host regular workshops, hackathons, and speaker sessions with industry professionals to enhance members' skills and exposure to real-world applications.</p>
+      <p>The club also encourages peer learning, project development, and community outreach through tech-driven initiatives.</p>
+    </section>
+
+    <section class="timeline">
+      <h2>Timeline & History</h2>
+      <div class="timeline-card">
+        <h3>2018 - Club Founded</h3>
+        <span>The beginning of a passionate community for tech enthusiasts.</span>
+      </div>
+      <div class="timeline-card">
+        <h3>2019 - First Hackathon</h3>
+        <span>Organized a 24-hour coding challenge with 100+ participants.</span>
+      </div>
+      <div class="timeline-card">
+        <h3>2021 - Partnered with Tech Companies</h3>
+        <span>Collaborated with local startups and tech firms for workshops and internships.</span>
+      </div>
+      <div class="timeline-card">
+        <h3>2023 - Community Outreach</h3>
+        <span>Launched free coding sessions for underprivileged students in the region.</span>
+      </div>
+    </section>
+  </div>
+</body>
+</html>

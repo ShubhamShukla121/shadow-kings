@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Study Resources</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #7d9097;
+      margin: 0;
+      padding: 2rem;
+    }
+
+    .resources-section {
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .resources-section h2 {
+      text-align: center;
+      font-size: 2rem;
+      color: #333;
+      margin-bottom: 2rem;
+    }
+
+    .domain {
+      margin-bottom: 2.5rem;
+    }
+
+    .domain h3 {
+      font-size: 1.5rem;
+      color: #444;
+      margin-bottom: 1rem;
+    }
+
+    .resources-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .resource-card {
+      background-color: white;
+      padding: 1rem 1.25rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+      transition: transform 0.2s ease;
+    }
+
+    .resource-card:hover {
+      transform: translateY(-4px);
+    }
+
+    .resource-title {
+      font-weight: bold;
+      font-size: 1.1rem;
+      margin-bottom: 0.5rem;
+      color: #222;
+    }
+
+    .resource-link {
+      color: #007bff;
+      text-decoration: none;
+      font-size: 0.95rem;
+    }
+
+    .resource-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <section class="resources-section">
+    <h2>Resources to Study</h2>
+
+    <div class="domain">
+      <h3>Web Development</h3>
+      <div class="resources-grid">
+        <div class="resource-card">
+          <div class="resource-title">freeCodeCamp</div>
+          <a href="https://www.freecodecamp.org/" target="_blank" class="resource-link">www.freecodecamp.org</a>
+        </div>
+        <div class="resource-card">
+          <div class="resource-title">MDN Web Docs</div>
+          <a href="https://developer.mozilla.org/" target="_blank" class="resource-link">developer.mozilla.org</a>
+        </div>
+        <div class="resource-card">
+          <div class="resource-title">Frontend Mentor</div>
+          <a href="https://www.frontendmentor.io/" target="_blank" class="resource-link">www.frontendmentor.io</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="domain">
+      <h3>Data Science</h3>
+      <div class="resources-grid">
+        <div class="resource-card">
+          <div class="resource-title">Kaggle</div>
+          <a href="https://www.kaggle.com/" target="_blank" class="resource-link">www.kaggle.com</a>
+        </div>
+        <div class="resource-card">
+          <div class="resource-title">DataCamp</div>
+          <a href="https://www.datacamp.com/" target="_blank" class="resource-link">www.datacamp.com</a>
+        </div>
+        <div class="resource-card">
+          <div class="resource-title">Coursera - Data Science Specialization</div>
+          <a href="https://www.coursera.org/specializations/jhu-data-science" target="_blank" class="resource-link">coursera.org</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="domain">
+      <h3>Machine Learning</h3>
+      <div class="resources-grid">
+        <div class="resource-card">
+          <div class="resource-title">Google ML Crash Course</div>
+          <a href="https://developers.google.com/machine-learning/crash-course" target="_blank" class="resource-link">developers.google.com</a>
+        </div>
+        <div class="resource-card">
+          <div class="resource-title">fast.ai</div>
+          <a href="https://www.fast.ai/" target="_blank" class="resource-link">www.fast.ai</a>
+        </div>
+        <div class="resource-card">
+          <div class="resource-title">DeepLearning.ai (Coursera)</div>
+          <a href="https://www.coursera.org/deeplearning-ai" target="_blank" class="resource-link">coursera.org</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
